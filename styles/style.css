@@ -354,6 +354,16 @@
   .display-none {
     display: none;
   }
+  .navbar{
+    width: 100%;
+    margin: 13px 16px 28px 16px ;
+  }
+  .navbar img{
+    width: 63px;
+  }
+  .menu-item{
+    margin-left: 0px;
+  }
   .banner {
     flex-direction: column-reverse;
   }
@@ -417,7 +427,8 @@
     font-size: 1.25rem;
   }
   .email {
-    padding: 19px 90px 19px 20px;
+    padding: 19px 40px 19px 20px;
+    margin: auto;
   }
   .Subscribe {
     padding: 21px 12px;
@@ -433,6 +444,7 @@
   }
   .logo-container img {
     margin-left: 0px;
+    margin-right: 24px;
   }
 }
 /* responsive section end */
