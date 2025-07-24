@@ -184,7 +184,7 @@
 
 .flowers-plants-content li {
   margin-top: 20px;
-  margin-left: 0px;
+  margin-left: 30px;
 }
 /* flower and plants section style end */
 
@@ -343,6 +343,7 @@ align-items: center;
 
 .quick-link{
   text-decoration: none;
+  color: #6B7280;
 }
 .logo-container img{
   margin-left: 24px;
