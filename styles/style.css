@@ -18,7 +18,7 @@
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-variation-settings: "width" 100;
 }
 
 /* google font */
@@ -33,12 +33,12 @@
   margin: 0 auto;
 }
 
-.latest-deals-info,
-.join,
-.footer-section {
+/* .latest-deals-info,.footer-section,
+.join
+ {
   max-width: 1440px;
   margin: 0 auto;
-}
+} */
 .section-title {
   font-size: 3.125rem;
   font-weight: bold;
@@ -48,6 +48,9 @@
   font-size: 1.375rem;
   color: rgba(0, 0, 0, 0.5);
 }
+/* img{
+  width: 100%;
+} */
 /* shared section style end */
 
 /* header section style start */
@@ -109,6 +112,7 @@
 
 .banner-profile img {
   width: 100%;
+  height: 100%;
 }
 /* banner section style end */
 
@@ -217,6 +221,7 @@
 .latest-deals-info p {
   max-width: 888px;
   margin: 0 auto;
+  padding: 0px 55px;
 }
 
 .latest-deals-title {
@@ -232,9 +237,6 @@
   row-gap: 25px;
   margin-top: 120px;
   margin-bottom: 120px;
-}
-.discount-list img {
-  width: 100%;
 }
 
 .off-60 {
@@ -313,7 +315,7 @@
     url("../assets/news-letter-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position:right center;
   height: 533px;
   display: flex;
   flex-direction: column;
@@ -383,7 +385,7 @@
     display: none;
   }
   .navbar {
-    width: 100%;
+    /* width: 100%; */
     margin: 13px 16px 28px 16px;
   }
   .navbar img {
@@ -462,6 +464,7 @@
   .latest-deals-info p {
     max-width: 336px;
     margin: 0 auto;
+    padding: 0px;
   }
   .join {
     max-height: 276px;
